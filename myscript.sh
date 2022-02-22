@@ -1,3 +1,5 @@
+#! sudo pacman -Syu to update everything
+
 #! /usr/bin/bash
 
 # console.log()
@@ -15,5 +17,7 @@ echo "Your name is $NAME"
 if [ $NAME == "Dylan" ]
 then 
 echo "Nice"
+else 
+echo "not nice"
 # end the if statement with fi, for some reason
 fi 
